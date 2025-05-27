@@ -27,10 +27,10 @@ test-devops-voting/
 > **Recommended:** First, fork the repository to your own GitHub account so you have full control and ownership of your version.
 
 ```bash
-# Fork the repo at https://github.com/alfhisa/test-devops-voting
+# Fork the repo at https://github.com/alfhisa/devops-tut-lb07
 # Then clone your forked version:
-git clone https://github.com/YOUR_USERNAME/test-devops-voting.git
-cd test-devops-voting
+git clone https://github.com/YOUR_USERNAME/devops-tut-lb07
+cd devops-tut-lb07
 npm install
 npm start
 ```
@@ -82,7 +82,7 @@ Every push to the `main` branch will trigger the pipeline on GitHub Actions.
 
 1. Go to [https://render.com](https://render.com)
 2. Click **New Web Service**
-3. Connect your GitHub repo (`test-devops-voting`)
+3. Connect your GitHub repo (`devops-tut-lb07`)
 4. Select the `main` branch and configure:
 
    - **Build Command:** `npm install`
