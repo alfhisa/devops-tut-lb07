@@ -8,20 +8,6 @@ This is a simple fullstack web application built with Node.js/Express.js. It's d
 
 ---
 
-## Project Structure
-
-```bash
-test-devops-voting/
-├── index.js
-├── package.json
-├── README.md
-└── .github/
-    └── workflows/
-        └── ci.yml
-```
-
----
-
 ## Step 1 – Setup Project Locally
 
 > **Recommended:** First, fork the repository to your own GitHub account so you have full control and ownership of your version.
