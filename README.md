@@ -1,10 +1,14 @@
-# 🗳️ Voting App – DevOps Pipeline Tutorial
+# Voting App – DevOps Pipeline Tutorial
 
 This is a simple fullstack web application built with Node.js/Express.js. It's designed to help students understand and implement a basic DevOps pipeline using **GitHub Actions** for Continuous Integration (CI) and manual deployment to **Render**.
 
+🚀 [LIVE DEMO](https://voting-app-devops-tutorial.onrender.com)
+
+![Screenshot](https://github.com/alfhisa/voting-app-devops-tutorial/raw/main/demo.png)
+
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 test-devops-voting/
@@ -18,10 +22,14 @@ test-devops-voting/
 
 ---
 
-## 🧩 Step 1 – Setup Project Locally
+## Step 1 – Setup Project Locally
+
+> **Recommended:** First, fork the repository to your own GitHub account so you have full control and ownership of your version.
 
 ```bash
-git clone https://github.com/alfhisa/test-devops-voting.git
+# Fork the repo at https://github.com/alfhisa/test-devops-voting
+# Then clone your forked version:
+git clone https://github.com/YOUR_USERNAME/test-devops-voting.git
 cd test-devops-voting
 npm install
 npm start
@@ -32,7 +40,7 @@ npm start
 
 ---
 
-## 🔄 Step 2 – Setup GitHub Actions for CI
+## Step 2 – Setup GitHub Actions for CI
 
 Click `Actions` then click `set up a workflow yourself`
 Create a file at `.github/workflows/ci.yml` with the following content:
@@ -70,7 +78,7 @@ Every push to the `main` branch will trigger the pipeline on GitHub Actions.
 
 ---
 
-## 🚀 Step 3 – Manual Deployment to Render
+## Step 3 – Manual Deployment to Render
 
 1. Go to [https://render.com](https://render.com)
 2. Click **New Web Service**
@@ -87,7 +95,7 @@ Render will automatically redeploy your app when new changes are pushed to `main
 
 ---
 
-## ✅ Step 4 – CI/CD Flow Check
+## Step 4 – CI/CD Flow Check
 
 1. Commit & push changes to `main`
 2. Visit GitHub → **Actions** tab → ensure CI pipeline passes
@@ -95,11 +103,6 @@ Render will automatically redeploy your app when new changes are pushed to `main
 
 ---
 
-## 🎯 Final Notes
+## Final Notes
 
-- This tutorial is built for educational purposes, avoiding Docker to simplify the DevOps learning process.
-- In the next phase, we will introduce containerization and automated deployment.
-
----
-
-**If this project feels too easy for you, maybe it's time to try the next challenge → [Bus Fare DevOps Case](https://github.com/alfhisa/bus-fare-devops-tutorial)** 😏
+This tutorial is created by [@alfhisa](https://github.com/alfhisa) for educational use in DevOps and Software Engineering courses.
